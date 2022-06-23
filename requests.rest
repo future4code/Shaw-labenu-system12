@@ -1,1 +1,11 @@
-GET http://localhost:3003/turma
+POST http://localhost:3003/turma
+Content-Type: application/json
+
+{
+  "name": "Turma 4",
+  "modulo": "Módulo 4",
+  "docentes": "Professor 4",
+  "estudantes": "Estudante 4",
+  "dataInicio": "01/01/2022",
+  "dataTermino": "01/01/2026"
+}

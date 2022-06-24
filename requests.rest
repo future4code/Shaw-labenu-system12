@@ -1,0 +1,14 @@
+GET http://localhost:3006/estudantes
+
+####
+
+POST http://localhost:3006/cadastrar/estudante
+Content-Type: application/json
+
+{
+    "id":"004",
+    "name":"Matheus",
+    "email":"mat@hotmail.com",
+    "datanascimento":"17/12/1991",
+    "hobbie":"Jogar futebol"
+}

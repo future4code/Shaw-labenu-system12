@@ -2,10 +2,42 @@ POST http://localhost:3003/turma
 Content-Type: application/json
 
 {
-  "name": "Turma 4",
-  "modulo": "Módulo 4",
-  "docentes": "Professor 4",
-  "estudantes": "Estudante 4",
-  "dataInicio": "01/01/2022",
-  "dataTermino": "01/01/2026"
+  "name": "Turma 5",
+  "modulo": "Módulo 5",
+  "docentes": "Professor 5",
+  "estudantes": "Estudante 5",
+  "dataInicio": "01/01/2023",
+  "dataTermino": "01/01/2027"
+}
+
+###
+
+GET http://localhost:3003/turmas
+
+###
+
+POST http://localhost:3003/docente
+Content-Type: application/json
+
+{
+  "name": "Paulinha",
+  "email": "paulinha@email.com",
+  "dataNascimento": "01/01/2002",
+  "especialidades": "Mestra jedie"
+}
+
+###
+
+GET http://localhost:3003/docente
+
+###
+
+POST http://localhost:3003/aluno
+Content-Type: application/json
+
+{
+    "name":"Jaum",
+    "email":"jaum@hotmail.com",
+    "datanascimento":"29/07/1993",
+    "hobbies": "Futebol"
 }
